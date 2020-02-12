@@ -26,15 +26,6 @@ return false;
 }
 
 
-function findTheCheese(ingredients){
-  for (let i = 0; i < ingredients.length; i++){
-  if  ( ingredients[i] == "cheddar" || ingredients[i] == "gouda" || ingredients[i] == "camembert"){
-    return ingredients[i];
-  }
-}
-return "no cheese!";
-}
-
 function findTheCheese(array){
   for (let i = 0; i < array.length; i++){
   if  ( array[i] == "cheddar" || array[i] == "gouda" || array[i] == "camembert"){
